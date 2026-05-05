@@ -1,38 +1,136 @@
-# my-app
+# 🚀 My Vue App
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is built using **Vue 3 + Vite**. It is a simple CRUD-based frontend application.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🛠️ Recommended IDE Setup
 
-## Recommended Browser Setup
+* VS Code
+* Vue (Volar Extension)
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+---
 
-## Customize configuration
+## 🌐 Recommended Browser Setup
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+* Chrome / Edge / Brave → Vue DevTools
+* Firefox → Vue DevTools
 
-## Project Setup
+---
+
+## ⚙️ Project Setup
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+---
+
+## ▶️ Run Development Server
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+---
+
+## 📦 Build for Production
 
 ```sh
 npm run build
 ```
+
+---
+
+# 🧩 Application Features (CRUD)
+
+This project demonstrates basic **CRUD operations**:
+
+---
+
+## ➕ CREATE (Add Data)
+
+* User can add new items using a form
+* Data is stored in Vue state
+
+<img width="1203" height="742" alt="image" src="https://github.com/user-attachments/assets/040995af-7d53-4cef-b821-c6246381e166" />
+
+
+---
+
+## 📖 READ (Display Data)
+
+* Displays list of items dynamically
+* Uses Vue directives like `v-for`
+
+<img width="1202" height="741" alt="image" src="https://github.com/user-attachments/assets/ff7763d7-f5c9-45cd-863f-dbac53407273" />
+
+---
+
+## ✏️ UPDATE (Edit Data)
+
+* User can edit existing entries
+* Data updates reactively
+
+<img width="1201" height="737" alt="image" src="https://github.com/user-attachments/assets/507cfacb-f777-46f8-a8c9-7d3fb5636072" />
+
+
+---
+
+## ❌ DELETE (Remove Data)
+
+* User can delete items from list
+* UI updates instantly
+<img width="1203" height="739" alt="image" src="https://github.com/user-attachments/assets/3ad8a935-42e0-4d1f-89a9-5a272f8a6321" />
+
+
+---
+
+# 📁 Project Structure
+
+```
+my-app/
+ ├── src/
+ │   ├── components/
+ │   ├── App.vue
+ │   └── main.js
+ ├── public/
+ ├── package.json
+ ├── vite.config.js
+```
+
+📸 **Add Folder Structure Screenshot Here**
+
+<!-- ![Structure](./screenshots/structure.png) -->
+
+---
+
+# 🧠 Key Concepts Used
+
+* Vue Components
+* Props & Events
+* Reactive Data (`data()`)
+* Event Handling (`@click`)
+* Conditional Rendering (`v-if`)
+* List Rendering (`v-for`)
+
+---
+
+# 🚀 Future Improvements
+
+* Backend integration (Node.js / MongoDB)
+* Authentication system
+* Better UI with Bootstrap
+
+---
+
+# 📌 Notes
+
+* `node_modules` is not uploaded to GitHub
+* Run `npm install` after cloning
+
+---
+
+# 👨‍💻 Author
+
+M. Manish Reddy
